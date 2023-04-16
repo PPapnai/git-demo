@@ -1,0 +1,29 @@
+Steps:
+
+1. Install Git on your machine
+2. Create a new folder on your local machine
+3. Open the command prompt
+4. type the below command: 
+
+cd <path-to-new-folder-you-created>
+git -v
+
+5. If the above commands tells you the git version. Great, congratulations! Your git installation was successful
+
+6. Create a new text file and write something in it.
+7. Run the below commands now
+
+git status  							// To check the git status
+git init								// to initialize a local repository
+git add <file_name> 					// to add that file to local repository
+git commit -m "Message to be written"	// to commit the file to local repository
+
+8. Create an account on GitHub, if you don't have one.				
+9. Create new repository in GitHub
+10. Copy the repository https url
+12. Go to you command prompt again and type the below command
+
+git remote add origin <repository-url>
+git push origin
+
+13. Check on GitHub repository if you have those files there now.
